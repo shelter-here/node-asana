@@ -18,7 +18,7 @@ var Collection = require('../utils/collection');
 /**
 * Goals service.
 * @module api/GoalsApi
-* @version 3.0.0
+* @version Build1
 */
 export class GoalsApi {
 
@@ -493,6 +493,7 @@ export class GoalsApi {
      * @param {Object} opts Optional parameters
      * @param {String} opts.portfolio Globally unique identifier for supporting portfolio.
      * @param {String} opts.project Globally unique identifier for supporting project.
+     * @param {String} opts.task Globally unique identifier for supporting task.
      * @param {Boolean} opts.is_workspace_level Filter to goals with is_workspace_level set to query value. Must be used with the workspace parameter.
      * @param {String} opts.team Globally unique identifier for the team.
      * @param {String} opts.workspace Globally unique identifier for the workspace.
@@ -563,6 +564,7 @@ export class GoalsApi {
      * @param {Object} opts Optional parameters
      * @param {String} opts.portfolio Globally unique identifier for supporting portfolio.
      * @param {String} opts.project Globally unique identifier for supporting project.
+     * @param {String} opts.task Globally unique identifier for supporting task.
      * @param {Boolean} opts.is_workspace_level Filter to goals with is_workspace_level set to query value. Must be used with the workspace parameter.
      * @param {String} opts.team Globally unique identifier for the team.
      * @param {String} opts.workspace Globally unique identifier for the workspace.

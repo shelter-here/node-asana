@@ -18,7 +18,7 @@ var Collection = require('../utils/collection');
 /**
 * Portfolios service.
 * @module api/PortfoliosApi
-* @version 3.0.0
+* @version Build1
 */
 export class PortfoliosApi {
 

@@ -267,6 +267,7 @@ let goalsApiInstance = new Asana.GoalsApi();
 let opts = { 
     'portfolio': "159874", 
     'project': "512241", 
+    'task': "78424", 
     'is_workspace_level': false, 
     'team': "31326", 
     'workspace': "31326", 
@@ -289,6 +290,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **portfolio** | **String**| Globally unique identifier for supporting portfolio. | [optional] 
  **project** | **String**| Globally unique identifier for supporting project. | [optional] 
+ **task** | **String**| Globally unique identifier for supporting task. | [optional] 
  **is_workspace_level** | **Boolean**| Filter to goals with is_workspace_level set to query value. Must be used with the workspace parameter. | [optional] 
  **team** | **String**| Globally unique identifier for the team. | [optional] 
  **workspace** | **String**| Globally unique identifier for the workspace. | [optional] 

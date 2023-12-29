@@ -18,7 +18,7 @@ var Collection = require('../utils/collection');
 /**
 * GoalRelationships service.
 * @module api/GoalRelationshipsApi
-* @version 3.0.0
+* @version Build1
 */
 export class GoalRelationshipsApi {
 
